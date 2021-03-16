@@ -6,6 +6,7 @@
 
 body{
     background-color: #f6f8f9;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Header and logo */
@@ -24,7 +25,6 @@ header{
 h1{
     display: inline-block;
     color: #031732;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 3em;
     transform: translate(0, 25%)
@@ -33,17 +33,17 @@ h1{
 
 /* Nav and buttons */
 nav{
-    width: 80%;
+    width: 70%;
     margin: auto;
     background-color: white;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     height: 50px;
     margin-top: 20px;
 }
 
 .blue-button{
-    background-color: dodgerblue;
+    background-color:  #47adf1;
     height: 30px;
     width: 100px;
     text-align: center;
@@ -69,7 +69,7 @@ nav{
 }
 /* Buttons hover function */
 .white-button:hover {
-    background-color: dodgerblue; 
+    background-color: #47adf1; 
     color: white;
     border: none;
   }
@@ -79,11 +79,91 @@ nav{
     color: lightgray;
     border: 1px solid lightgray;
   }
-
-
 /* /Buttons hover function */
-
-
-
-
 /* /Nav and buttons */
+
+/* Main container */
+.container{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-top: 1px solid #f6f8f9;
+    height: 600px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+p, h2{
+    color: #031732;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.new-task, .today, .upcoming{
+    margin: 30px 0 0 50px;
+}
+
+p, .circle, .cross{
+    display: inline-block;
+}
+
+.circle{
+    width: 16px;
+    height: 16px;
+    border: 1px solid lime;
+    color: lime;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 15px 0 0;
+}
+.cross{
+    width: 16px;
+    height: 16px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    margin: 10px 15px 0 0;
+}
+
+.editorial{
+    background-color:#47adf1 ;
+}
+
+.goals{
+    background-color: purple ;
+}
+
+.recruiting{
+    background-color: green ;
+}
+
+.mobile{
+    background-color: orange ;
+}
+
+.website{
+    background-color: plum;
+}
+
+.sales{
+    background-color: lightgreen;
+}
+
+.editorial, .goals, .recruiting, .mobile, .website, .sales{
+    display: inline-block;
+    height: 20px;
+    width: 60px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 10px;
+    border: none;
+}
+
+.task{
+    margin: 10px 0;
+}
+/* /Main container */
+
