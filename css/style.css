@@ -3,19 +3,24 @@
     margin: 0;
     padding: 0;
 }
+
 body{
-    background-color: rgb(236, 233, 233);
+    background-color: #f6f8f9;
 }
+
+/* Header and logo */
 header{
     background-color: white;
     height: 80px;
 }
+
 .logo{
     line-height: 80px;
     height: 80px;
     vertical-align: middle;
     margin-left: 15px;
 }
+
 h1{
     display: inline-block;
     color: #031732;
@@ -24,3 +29,61 @@ h1{
     font-size: 3em;
     transform: translate(0, 25%)
 }
+/* /Header and logo */
+
+/* Nav and buttons */
+nav{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.blue-button{
+    background-color: dodgerblue;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin: 10px 5px 10px 60px;
+    border-radius: 4px;
+}
+
+.white-button{
+    background-color: white;
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    border: 1px solid lightgray;
+    display: inline-block;
+    color: lightgray;
+    font-size: 16px;
+    margin:auto;
+    border-radius: 4px;
+}
+/* Buttons hover function */
+.white-button:hover {
+    background-color: dodgerblue; 
+    color: white;
+    border: none;
+  }
+
+.blue-button:hover {
+    background-color: white; 
+    color: lightgray;
+    border: 1px solid lightgray;
+  }
+
+
+/* /Buttons hover function */
+
+
+
+
+/* /Nav and buttons */
